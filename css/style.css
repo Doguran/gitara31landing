@@ -1,0 +1,33 @@
+#logo img {
+    height: 55px;
+}
+#logo {
+    width: 600px;
+}
+@media (max-width: 992px) {
+    #phone {
+        float: right;
+        margin: 0;
+        text-align: right;
+    }
+    #logo img {
+        float: left;
+    }
+}
+@media (max-width: 768px) {
+    #phone {
+        float: left;
+        text-align: center;
+        width: 100% !important;
+    }
+    #logo h1{
+        font-size: 150%;
+    }
+    #logo h2{
+        text-align: left;
+    }
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
