@@ -1,3 +1,11 @@
+#banner h1 {
+    font-size: 220%;
+}
+#banner b {
+    padding: 4px;
+    background: #485910;
+    color: #fff;
+}
 #logo img {
     height: 55px;
 }
