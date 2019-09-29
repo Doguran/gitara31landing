@@ -1,4 +1,10 @@
+#banner {
+    background: url(http://demos.shapingrain.com/justlandedwp/wp-content/themes/justlanded/images/backgrounds/bg_banner_9.jpg) no-repeat center top #a2b61d;
+    background-attachment: scroll;
+    background-size: cover;
+}
 #banner h1 {
+
     font-size: 220%;
 }
 #banner b {
