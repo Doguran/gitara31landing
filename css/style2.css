@@ -32,7 +32,7 @@ body {
     margin: 0;
 }
 
-.banner {
+.banner, .alert {
     /*background: url(http://demos.shapingrain.com/justlandedwp/wp-content/themes/justlanded/images/backgrounds/bg_banner_9.jpg) no-repeat center top #a2b61d;*/
     background: url(../images/144.jpg) no-repeat center top #6B798C;
     /*background: #6B798C;*/
@@ -171,7 +171,7 @@ h4 {
     float: left;
     margin: 0 10px 0 0;
 }
-#features h2, #features h3, #screenshots h2, #video h2, #video h3, #teacher h2, #teacher h3, #pricing h2, #pricing h3 {
+#features h2, #features h3, #screenshots h2, #video h2, #video h3, #teacher h2, #teacher h3, #contest h2, #contest h3 {
     text-align: center;
 }
 h2 {
@@ -186,7 +186,7 @@ h3 {
     color: #999;
     margin: -15px 0 25px 0;
 }
-section {
+section, .one-teacher {
     background: url(../images/border.gif) repeat-x left bottom;
     margin: 0 0 40px 0;
     padding: 0 0 45px 0;
@@ -195,10 +195,10 @@ section {
 section#teacher {
     background: none;
 }
-#description ul {
+#description ul, #teacher ul {
     margin: 20px 0 20px 15px;
 }
-#description ul li {
+#description ul li, #teacher ul li{
     background: url(../images/icons/icon_check.png) no-repeat 0 7px;
     padding: 6px 0 6px 28px;
 }
@@ -208,7 +208,7 @@ section#teacher {
 }
 
 @media (min-width: 992px) {
-    .video-box{
+    .video-box, .contest-box{
         margin: 0 40px;
     }
 }
@@ -239,8 +239,11 @@ section#teacher {
     outline: none;
     background: transparent;
 }
-.video-box div {
+.video-box div, .contest-box div{
     margin-left: 5px;
     margin-right: 5px;
+}
+.teacher-img{
+    border-radius: 50%;
 }
 
