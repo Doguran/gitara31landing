@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="css/jquery.toast.min.css">
     <link rel="stylesheet" href="css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap&subset=cyrillic"
           rel="stylesheet">
@@ -56,11 +57,11 @@
                             <span class="form-control-wrap your-email"><input name="your-email" value="" size="40" class="form-control" type="email" placeholder="Телефон"></span></p>
 
 
-                            <input value="Хочу бесплатный урок" class="form-control btn btn-warning"
+                            <input value="Хочу бесплатный урок" id="btn-send" class="form-control btn btn-warning"
                                   type="submit">
                     </form>
                 </div>
-                <p class="lead text-center">На 26.09 осталось <b>6</b> свободных мест</p>
+                <p class="lead text-center">На 26.09 осталось <b class="vacancy">6</b> свободных мест</p>
 
             </div>
 
@@ -224,7 +225,7 @@
                     <li>Высшее музыкальное образование по классу гитары</li>
 
                 </ul>
-                <p><a href="https://dummyimage.com/400x600/000/fff" data-fancybox="diplom">Смотреть диплом специалиста</a></p>
+                <p><a class="vk rounded tm-link-all" href="https://dummyimage.com/400x600/000/fff" data-fancybox="diplom">Смотреть диплом специалиста</a></p>
             </div>
             <div class="col-12 col-lg-6 align-self-center order-1 order-lg-2 mb-5 mb-lg-0">
                 <img src="images/dogaev.jpg" class="img-fluid mx-auto d-block teacher-img">
@@ -251,7 +252,7 @@
                     <li>Высшее музыкальное образование по классу гитары</li>
 
                 </ul>
-                <p><a href="https://dummyimage.com/400x700/000/fff" data-fancybox="diplom2">Смотреть диплом специалиста</a></p>
+                <p><a class="vk rounded tm-link-all" href="https://dummyimage.com/400x600/000/fff" data-fancybox="diplom2">Смотреть диплом специалиста</a></p>
             </div>
 
         </div>
@@ -274,11 +275,12 @@
                                type="submit">
                     </form>
                 </div>
-                <p class="lead text-center">На 26.09 осталось <b>6</b> свободных мест</p>
+                <p class="lead text-center">На 26.09 осталось <b class="vacancy">6</b> свободных мест</p>
             </div>
         </div>
     </div>
 </div>
+
 <div class="container py-5">
     <section id="contest">
 
@@ -391,11 +393,111 @@
     </section>
 </div>
 
+
+
+
+    <div class="container">
+        <section id="comment">
+
+            <h2>Честные отзывы о нашей работе</h2>
+            <h3>Мнение ребят и родителей</h3>
+        <div class="row">
+            <div class="col-12">
+                <div class="card-columns">
+                    <div class="card mb-4" id="comment6">
+                        <div class="card-body">
+                            <div class="row">
+                            <div class="col-5"><img src="images/morozovvl.jpg" class="round img-fluid"></div>
+                            <div class="col-7">
+                                <h4 class="card-title reviews-name"><a href="https://vk.com/frost.v1986">Владимир Морозов</a></h4>
+                                <div id="com1" class="comment-modal">
+                                    <img src="images/morozovvl.jpg" class="round img-fluid">
+                                    <h4 class="reviews-name"><a href="https://vk.com/frost.v1986">Владимир Морозов</a></h4>
+                                    <p>Здравствуйте!
+                                    ДМШ № 3 по классу классической шестиструнной гитары я окончил 15 лет назад ))
+                                    С огромной благодарностью вспоминаю всегда музыкальную школу и своего Учителя по гитаре Юрия Анатольевича Догаева! Преданный своему делу, всегда спокойный (даже когда я бывал не готов к занятию))), находивший для меня ноты потрясающих произведений, которые я с упоением играю по сей день, когда нахожу для этого время. Уже конечно не так технично и четко, всё-таки искусство, как и спорт, как и интеллектуальный труд, требует ежедневных занятий, чтобы всегда быть на высоте. Но с годами я стал играть их душевнее ))
+                                    IV часть сюиты «Эльфы» Н.Кошкина, любимый многими начинающими «Вечер в Венеции», переложенные для гитары «Чувство» Альберта и мелодия «Chi Mai» Эннио Марриконе из к\ф «Профессионал» - самые любимые мои произведения, которые невозможно исполнять, не изменяясь внутренне.. Они задевают струны вашей души, и меняют вас навсегда, и остаются навсегда с вами! Мне трудно представить себе, что за человеком был бы я, если бы в моей жизни не было этой и многой другой музыки, которую я играл и играю благодаря Юрию Анатольевичу!
+                                    Признаюсь, был период, когда манило жесткое и энергичное звучание электрогитары. Но в тишине и для души всегда хочется вспоминать именно старую добрую классику и тонуть в акустическом звуке.
+                                    А какой бесценный опыт сценических выступлений, выступлений перед публикой я приобрёл! Выступая с инструментом перед концертным залом, или с докладом перед классом, или с дипломной работой перед комиссией университета, испытываешь сходные чувства. Полностью избавиться от волнения не могу и по сей день, но имея за плечами музыкальную школу, десятки конкурсов и концертов, я научился держаться уверенно, выступая потом уже во время трудовой деятельности в общеобразовательной школе на конференциях, семинарах, участвуя в профессиональных конкурсах. Я научился не «перегорать» в ожидании своего выхода. Я научился не останавливаться в ступоре и двигаться дальше, если что-то во время выступления пошло не так. Я не говорю уже о том, что сформировавшийся музыкальный вкус, чувство ритма, чувство эмоциональной составляющей музыки - незаменимые качества для профессии, связанной с людьми и творчеством! И всё это даёт музыкальная школа!
+                                    Музыка – это по сей день очень важная составляющая моей жизни! Дорогу к ней мне проложили ДМШ № 3 и мой Учитель!
+                                    Юрий Анатольевич, спасибо Вам!!! Успехов Вам и Вашим ученикам! Вы делаете великое дело!
+                                    </p>
+                                </div>
+                                <a data-fancybox data-src="#com1" class="vk rounded tm-link-all" href="javascript:;" >Читать отзыв</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="comment4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5"><img src="images/kamilla.jpg" class="round img-fluid"></div>
+                                <div class="col-7">
+                                    <h4 class="card-title reviews-name"><a href="https://vk.com/id239987451">Камилла Садыкова</a></h4>
+                                    <a class="vk rounded tm-link-all" href="#">Читать отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="comment2">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5"><img src="images/ivan.jpg" class="round img-fluid"></div>
+                                <div class="col-7">
+                                    <h4 class="card-title reviews-name"><a href="https://vk.com/id228730928">Осипов Иван</a></h4>
+                                    <a class="vk rounded tm-link-all" href="#">Читать отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="comment1">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5"><img src="images/max.jpg" class="round img-fluid"></div>
+                                <div class="col-7">
+                                    <h4 class="card-title reviews-name"><a href="https://vk.com/id343683084">Семыкин Максим</a></h4>
+                                    <a class="vk rounded tm-link-all" href="#">Читать отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="comment32">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5"><img src="images/niko.jpg" class="round img-fluid"></div>
+                                <div class="col-7">
+                                    <h4 class="card-title reviews-name"><a href="https://vk.com/hikus">Niko Nikolaishvili</a></h4>
+                                    <a class="vk rounded tm-link-all" href="#">Читать отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4" id="comment33">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5"><img src="images/karnauh.jpg" class="round img-fluid"></div>
+                                <div class="col-7">
+                                    <h4 class="card-title reviews-name"><a href="https://vk.com/id191829242">Наталья Карнаух</a></h4>
+                                    <a class="vk rounded tm-link-all" href="#">Читать отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="col-12 text-center mt-3"><a href="https://vk.com/topic-108166141_39459432">https://vk.com/topic-108166141_39459432</a></div>
+        </div>
+
+        </section>
+    </div>
+
+
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -404,8 +506,66 @@
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="js/jquery.toast.js"></script>
+
 <script>
+
+
+
     $(document).ready(function(){
+
+
+        $('#btn-send').click(function(event){
+            event.preventDefault();
+            $.toasts({
+                heading: 'Сообщение отправлено',
+                text: 'Спасибо! Мы Вам обязательно позвоним',
+                icon: 'success',
+                loader: true,        // Change it to false to disable loader
+                hideAfter: 4000,
+                position: 'mid-center',
+                bgColor: '#3C763D',
+                loaderBg: '#FD7E14'  // To change the background
+            })
+        });
+
+        var $element = $('#contest');
+        $counter = 0;
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop() + $(window).height();
+            //Если скролл до конца елемента
+            //var offset = $element.offset().top + $element.height();
+            //Если скролл до начала елемента
+            var offset = $element.offset().top
+
+            if (scroll > offset && $counter == 0) {
+                $.toasts({
+                    heading: 'Уведомление',
+                    text: ['Только что <b>Наталья</b> оставил(а) заявку на бесплатный урок','Посетителей он-лайн: <b>3</b>'],
+                    icon: 'info',
+                    loader: true,        // Change it to false to disable loader
+                    hideAfter: 20000,
+                    //position: 'mid-center',
+                    bgColor: '#33588C',
+                    loaderBg: '#FD7E14'  // To change the background
+                })
+                // $.toast({
+                //     title: 'Уведомление',
+                //     subtitle: 'только что',
+                //     content: 'Пользователь <b>Наталья</b> оставил(а) заявку на бесплатный урок.<br>Посетителей на сайте: <b>3</b>.',
+                //     type: 'info',
+                //     delay: 8000
+                // });
+                $counter = 1;
+            }
+        });
+
+
+
+
+
+
+
         $('.video-box').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -468,6 +628,32 @@
                 }
             ]
         });
+
+        $('.comment-box').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: true,
+            nextArrow: '<div class="prev-slick"><img src="images/left-arrow.png"></div>',
+            prevArrow: '<div class="next-slick"><img src="images/right-arrow.png"></div>',
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false
+
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false
+
+                    }
+                }
+            ]
+        });
+
     });
 </script>
 </body>
