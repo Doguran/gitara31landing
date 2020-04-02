@@ -86,7 +86,7 @@ ul, li, li p {
 .banner b {
     padding: 4px;
     background: rgba(0,0,0,0.5) !important;
-    color: #fff;
+    color: #f08f11;
 }
 .banner b.vacancy {
     background: url(../images/dash.png) no-repeat center !important;
@@ -336,4 +336,24 @@ a.vk {
     max-width: 600px;
     display: none;
 }
+.social li img{
+    width: 32px;
+}
+.social li {
+    display: inline;
+    margin-left: 10px;
+}
+#phone {
+    font-size: 1.5em;
+}
+.psewdo-link{
 
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    font-size: 1.2em;
+
+}
+.psewdo-link:hover {
+    text-decoration: none;
+}
